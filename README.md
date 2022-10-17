@@ -2,7 +2,7 @@
 
 Figure 1 shows our false-positive classification pipeline used to study the influence of different uncertainty estimation methods on reducing false positives in liver lesion segmentation. 
 
-![Figure 1. False-positive classifcation pipeline](./figures/classification_pipeline.png)
+![Figure 1. False-positive classifcation pipeline](./figures/methodology.png)
 
 Our code is organized as follows:
 * fp_classification: 
