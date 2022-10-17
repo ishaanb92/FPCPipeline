@@ -2,7 +2,7 @@
 
 Figure 1 shows our false-positive classification pipeline used to study the influence of different uncertainty estimation methods on reducing false positives in liver lesion segmentation. 
 
-![Figure 1. False-positive classifcation pipeline](./pictures/classification_pipeline.png)
+![Figure 1. False-positive classifcation pipeline](./figures/classification_pipeline.png)
 
 Our code is organized as follows:
 * fp_classification: 
@@ -17,7 +17,7 @@ Our code is organized as follows:
 
 We have studied the popular uncertainty estimation techniques such as MC-Dropout, test-time augmentations, and model ensembles to obtain the following results:
 
-![Figure 2. Relative changes in precision, recall, and f1-score metrics after false-positive classification](./pictures/improvement.png)
+![Figure 2. Relative changes in precision, recall, and f1-score metrics after false-positive classification](./figures/improvement.png)
 
 
 We studied the efficacy of features computed from uncertainty estimates at reducing false positives  by developing a classifier-based pipeline. We found that the relative improvement in the lesion detection metrics is mainly influenced by the class imbalance in the data used to train the classifier and the distribution of various shape-based features for all the uncertainty estimation methods we studied.
